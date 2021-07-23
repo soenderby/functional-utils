@@ -1,5 +1,5 @@
 {
-  "name": "functional-utils",
+  "name": "@soenderby/functional-utils",
   "version": "1.0.0",
   "description": "Utilities for functional programming in javascript",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "mocha --require @babel/register --require @babel/polyfill 'test/**/**.test.js'"
   },
   "keywords": [
-    "parser"
+    "functional programming"
   ],
   "author": "Jakob Sønderby Kristensen",
   "license": "MIT",
@@ -24,5 +24,16 @@
     "chai": "^4.3.4",
     "chai-almost": "^1.0.1",
     "mocha": "^8.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soenderby/functional-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soenderby/functional-utils/issues"
+  },
+  "homepage": "https://github.com/soenderby/functional-utils#readme"
 }

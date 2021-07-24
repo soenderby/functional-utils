@@ -1,4 +1,4 @@
-import {
+const {
   concat,
   drop,
   emptyList,
@@ -36,9 +36,9 @@ import {
   isArray,
   prepend,
   append
-} from './src/utils';
+} = require('./src/utils')
 
-export {
+module.exports = {
   concat,
   drop,
   emptyList,
